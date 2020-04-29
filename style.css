@@ -1,0 +1,67 @@
+body {
+  font-family:'Oxygen', sans-serif;
+  margin:0;
+  padding:0;
+
+}
+
+.homeHeader {
+  background-image: url("newheader.jpg");
+  background-position: center;
+  background-size: cover;
+  height:94vh;
+  width:100%;
+  display:table;
+}
+
+.contact:hover {
+  text-decoration:none;
+  color:white;
+  background-color:darkblue;
+}
+
+.homeHeader-container {
+  width:200px;
+  padding:10px;
+  margin:10px;
+  display:table-cell;
+  vertical-align:middle;
+  text-align:center;
+  height:500px;
+  min-height:500px;
+}
+
+.infoHeader {
+  background-image: url("covidbanner.svg");
+  background-position: center;
+  background-size:cover;
+  color:white;
+  border-radius:none;
+  height:100vh;
+  margin-bottom:0px;
+}
+
+.txtFooter {
+  position:relative;
+  top:25px;
+  animation: textMove 5s ease infinite;
+}
+
+ .navbar {
+  margin-bottom:-24px;
+  background-color:royalblue;
+  box-shadow: 2px 2px 5px black;
+}
+
+.contactHeader {
+  background-color:#003366!important;
+  color:white;
+  border-radius:none;
+  margin-bottom:0px;
+}
+
+.navbar-collapse {
+  text-align:center;
+}
+
+/*Loader for the Website*/
